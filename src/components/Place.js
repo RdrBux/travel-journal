@@ -13,7 +13,7 @@ export default function Place(props) {
               src="../img/location.svg"
               alt="location"
             />
-            <h3 className="place--country">{props.location}</h3>
+            <h3 className="place--country">{props.location.toUpperCase()}</h3>
             <a className="place--maps-link" href={props.googleMapsUrl}>
               View on Google Maps
             </a>
