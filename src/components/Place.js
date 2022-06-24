@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function Place(props) {
-  console.log(props);
   return (
     <div className="place--container">
       <div className="place--columns">
